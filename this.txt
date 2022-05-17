@@ -1,0 +1,4 @@
+variable is something that can be potentially changed
+sequence is the steps that lead to an output
+input is what we put in to get an output
+output is the result

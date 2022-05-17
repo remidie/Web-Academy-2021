@@ -1,0 +1,25 @@
+.wow {
+  width: 100px;
+}
+body{
+  background-color:#D6D8BB;
+  color:black;
+}
+h2{
+ border:solid 5px black;
+background-color:#868775;
+}
+.topnav a:hover{
+  background-color:#D4D6B7;
+  color:black;
+}
+.topnav a{
+  color:#3F4033;
+  display: block;
+  float: left;
+  padding:25px 8px;
+}
+.topnav {
+  background-color:#A6A798;
+  overflow:hidden;
+}

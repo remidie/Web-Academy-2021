@@ -1,0 +1,17 @@
+body{
+  background-color:silver;
+  color:blue;
+}
+
+button{
+  background-color:gray;
+  color:black;
+  padding:5px;
+}
+
+.center{
+  border:10px grey solid;
+  border-style:ridge;
+  width:50%;
+}
+

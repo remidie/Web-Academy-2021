@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      background-repeat:no-repeat;
+        background-size:100%;
+    }
+
+    const hour = new Date().getHours(); 
+let greeting;
+
+if (hour < 18) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
+
+document.getElementById("demo").innerHTML = greeting;
+    </style>
+</head>
+<body style="background-image:url('webpage.png')">
+  <embed src="Rick Astley - Never Gonna Give You Up.mp3" loop="true" autostart="true" width="0" height="0">
+  <center>
+  <h1><mark>your webpage will look something like this, but better and more professional</h1>
+    <marquee behavior="alternate">
+      <img src="doge.gif" width="200px" height="300px">
+    </marquee>
+<p id="demo"></p>
+</body>
+</html>

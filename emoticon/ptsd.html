@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>PTSD</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body id="trauma">
+    <a href="emoticon.html">HOME</a>
+    <center>
+    <marquee behavior="alternate">
+      <img src="ptsd.svg" id="eat">
+      <h6>credit to <a href="https://openclipart.org/detail/303361/ptsd">Open Clip Art</a></h6>
+    </marquee>
+    <table>
+      <th>Brief Description</th>
+      <tr>
+        <td>
+          <p>Post Traumatic Stress Disorder is a mental illness that happens after someone either experiences or witnesses a traumatic/terrifying event which leaves someone unable to cope or adjust and they will continue to feel the fear of the event well after the event happened. There are four main types of post traumatic stress disorders, being intrusive memories, avoidance, negative changes in thinking and mood, and changes in physical and emotional reactions. Some symptoms of "intrusive memories" are unwarranted and recurrent distressing memories, reliving the event as if it were happening again (aka flashbacks), nightmares about the event, and severe emotional distress or physical reactions to something that reminds them of the traumatic event. Symptoms of avoidance are that they try to avoid thinking or talking about the event, and avoiding places, activities, or people that would remind them of the event. Some symptoms of "negative changes in thinking and mood" are memory problems, hopelessness, feeling emotionally numb, finding it difficult feeling happy, difficulty with maintaining relationships, and lack of interest in activities once enjoyed. Some symptoms of "changes in physical and emotional reactions" are being easily startled or frightened, always being on guard of danger, self-destructive behavior, trouble sleeping and concentrating, angry outbursts/aggressive behavior, and/or overwhelming shame or fear. Most people who've gone through traumatic events don't develop PTSD, but there are certain factors that can lead to someone developing PTSD, called risk factors. Some risk factors are watching someone get hurt/die, getting hurt, childhood trauma, feeling horror, having little to no social support after the event, dealing with stress following the event, and having a history of mental illness or substance abuse.</p>
+        </td>
+      </tr>
+    </table>
+    <div id="block"></div>
+    <table>
+      <th>Treatment</th>
+      <tr>
+        <td>
+          <p>Due to everyone's cases of PTSD being unique from each other, a treatment that works for one person may not work for someone else, so a medical professional should be consulted and asked about the best solution. Some solutions to combat PTSD are to get support from others, learning to feel good about their actions, having a positive coping strategy, and being able to act and respond effectively despite feeling fear. One form of meidcations that have been proven to help combat many symptoms of PTSD are anti-depressants, and psychotherapies like cognitive behavorial therapy can also help. </p>
+        </td>
+      </tr>
+    </table>
+    </center>
+    <script>
+        function blockTest(){
+        document.getElementById("block").style.height="30"
+        document.getElementById("block").style.width="30"
+    let position = 0;
+    var x = document.getElementById("block").style.left;
+    var y = document.getElementById("block").style.top;
+    const moveBlock = ({code}) => {
+      if (["KeyA", "ArrowLeft"].includes(code)) {
+        document.getElementById("block").style.left = `${position -= 20}px`;
+      }
+      if (["KeyD", "ArrowRight"].includes(code)) {
+        document.getElementById("block").style.left = `${position += 20}px`;
+      }
+      if (["KeyS", "ArrowDown"].includes(code)) {
+        document.getElementById("block").style.top = `${position += 20}px`;
+      }
+      if (["KeyW", "ArrowUp"].includes(code)) {
+        document.getElementById("block").style.top = `${position -= 20}px`;
+      }
+    }
+        document.addEventListener("keydown", moveBlock);
+      }
+      </script>
+  </body>
+</html>

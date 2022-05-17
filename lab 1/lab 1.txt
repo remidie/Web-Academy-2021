@@ -1,0 +1,13 @@
+<!--Doctype HTML-->
+<html>
+<head>
+<title>My First Webpage</title>
+</head>
+<body>
+<h1>Thomas A. Edison CTE HS</h1>
+<h2>Web Developer Academy</h2>
+<h3>10th Grade</h3>
+<h4>Lab 1</h4>
+<h5> Intro to Hyper Text Markup Language</h5>
+<h6> By Cristino Rivera</h6>
+<p> I am here because I want to learn how to code websites and other stuff. 

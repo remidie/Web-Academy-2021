@@ -1,0 +1,158 @@
+<!--Doctype HTML-->
+<html>
+<head>
+<title>The Z Index</title>
+<link rel="stylesheet" href="../../../lab 7/style.css">
+  <link rel="shortcut icon" href="../../logo3.png" type="image/x-icon">
+<style>
+  #lb_11{ 
+    border: gray solid 10px;
+    width: 500px;
+    height:500px;
+    align:left;
+    position:relative;
+    right:5px;
+    background-color:red; 
+    overflow:hidden;
+    float:left;
+  }
+  .smash{
+    width:500px;
+    height:500px;
+    position:absolute;
+  }
+  #character{
+    width:25px;
+    height:25px;
+    position:absolute;
+    left:0px;
+    top:165px;
+    z-index:1;
+  }
+  img#character:hover{
+    visibility:hidden;
+  }
+  #hunt{
+    padding:30px;
+    border: gray solid 10px;
+    width: 500px;
+    height:500px;
+    align:left;
+    position:relative;
+    left:500px;
+    background-color:red; 
+    overflow:hidden;
+    float:left;
+  }
+  .treasure{
+    width:50px;
+    height:50px;
+    position:absolute;
+    left:50px;
+    top:350px;
+    z-index:1;
+    opacity:0%;
+  }
+  img.treasure:hover{
+    opacity:100%;
+  }
+    .gold{
+    width:50px;
+    height:50px;
+    position:absolute;
+    opacity:0%;
+    left:30px;
+    top:40px;
+    z-index:1;
+  }
+  .gold:hover{
+    opacity:100%;
+  }
+  .old{
+    width:50px;
+    height:50px;
+    position:absolute;
+    opacity:0%;
+    left:400px;
+    top:250px;
+    z-index:1;
+  }
+  .old:hover{
+    opacity:100%;
+  }
+  .horse{
+    width:50px;
+    height:50px;
+    position:absolute;
+    opacity:0%;
+    left:375px;
+    top:375px;
+    z-index:1;
+  }
+  .horse:hover{
+    opacity:100%;
+  }
+  .peso{
+    width:50px;
+    height:50px;
+    position:absolute;
+    opacity:0%;
+    left:250px;
+    top:150px;
+    z-index:1;
+  }
+  .peso:hover{
+    opacity:100%;
+  }
+  .box{
+    width:500px;
+    height:500px;
+    position:absolute;
+    left:0;
+    top:0;
+  }
+</style>
+</head>
+<a href="../lab 7/lab 7.html">HOME PAGE</a>
+<body style="background-image:url('smol.jpg');">
+  <div class="topnav">
+   <a href="../../../lab 1/lab 1.html">LAB #1 <br></a>
+   <a href="../../../lab 2/lab 2.html">LAB #2<br></a>
+   <a href="../../../lab 3/lab 3.html">LAB #3<br></a>
+   <a href="../../../lab 4/lab 4.html">LAB #4<br></a>
+   <a href="../../../lab 5/lab 5.html">LAB #5<br></a>
+   <a href="../../../lab 6/lab 6.html">LAB #6<br></a>
+   <a href="../../../lab 8/lab 8.html">LAB #8<br></a>
+   <a href="../../../lab 9/lab 9.html">LAB #9<br></a>
+   <a href="../../../lb 10/lab 10.html">LAB #10<br></a>
+   <a href="../../../unused labs/lb 11/lab 11.html">LAB #11<br></a>
+   <a href="../../../unused labs/lb 12/lab 12.html">LAB #12<br></a>
+   <a href="../../../unused labs/lb 13/lab 13.html">LAB #13<br></a>
+   <a href="../../../unused labs/lb 14/lab 14.html">LAB #14<br></a>
+   <a href="../../../unused labs/lb 15/lab 15.html">LAB #15<br></a>
+   <a href="../../../unused labs/lb 16/lab 16.html">LAB #16<br></a>
+   <a href="../../../unused labs/lb 17/lab 17.html">LAB #17<br></a>
+   <a href="../../unused labs/lb 18/lab 18.html">LAB #18<br></a>
+   <a href="../../unused labs/lb 19/lab 19.html">LAB #19<br></a>
+   <a href="../../unused labs/lb 20/lab 20.html">LAB #20<br></a>
+   <a href="../../movie/project.html">Movie Project<br></a>
+</div>
+<div class="header">
+<h1>Cristino</h1>
+<h1 id="lname">Rivera</h1>
+<h1 id="demobox">Lab 11</h1>
+</div>
+<div id="lb_11">
+  <img src="geno.png" alt="" id="character">
+  <img src="poster.png" alt="" class="smash">
+</div>
+<div id="hunt">
+  <img src="dragon.png" class="treasure">
+  <img src="gold 2.jpg" class="gold">
+  <img src="gold 3.jpg" class="old">
+  <img src="gold 4.jpg" class="horse">
+  <img src="gold 5.png" class="peso">
+  <img src="box.jpg" alt="" class="box" id="gold">
+</div>
+</body>
+</html>

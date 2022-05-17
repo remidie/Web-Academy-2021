@@ -1,0 +1,16 @@
+<!--Doctype HTML-->
+<html>
+<head>
+<title> Collected stuff >:) </title>
+</head>
+<body>
+<h1>Thomas A. Edison CTE HS for $100</h1>
+<h2>500000 ft^2 condo for $300</h2>
+<h3>30 10th graders for $20</h3>
+<h4>webpage for $50</h4>
+<h5>huge stack of books for $500</h5>
+<h6>happy buying</h6>
+<p> yes </p>
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> Epic Discounts Here
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="../../logo3.png" type="image/x-icon">
+  </head>
+  <body>
+    <!--centers the text-->
+    <center>
+      <!--sets what will show up after we press submit-->
+			<div id="after">
+				<section class="section_info">
+					<h1 style="font-size: 3.5em;  margin-bottom: 0.3em;">Registered Info</h1>
+					<h4 style="margin-bottom: 3em; color:#fff">Thank you for registering!</h4>
+				</section>
+        
+				<section class="section_userform">
+					<!--shows off answers-->
+          <div class="break">
+						<p class="result_label">Your name:</p>
+						<p class="result" id="nameResult"></p>
+					</div>
+					<div class="break">
+						<p class="result_label">Your Email:</p>
+						<p class="result" id="emailResult"></p>
+					</div>
+					<div class="break">
+						<p class="result_label">Your Phone:</p>
+						<p class="result" id="phoneNumResult"></p>
+					</div>
+					<!--back button-->
+					<div class="break buttonWrapper">
+							<input id="goBack" class="button" type="button" value="Return" onClick="returnHome();">
+						</div>
+				</section>
+			</div>
+			<div class="wrapper">
+			<!--sets what we see-->
+			<div id="before">
+			<!--sets heading-->
+				<section class="section_info2">
+					<h1>Register</h1>
+				</section>
+        <!--makes line thingie-->
+				<hr id="line">
+        
+				<section class="section_userform2">
+					<form name="userform">
+            <!--sets what we see/where we can input things-->
+						<div class="break">
+							<p class="input_label">Name:</p>
+							<input class="textbox" id="user_name" type="text" name="input_username" placeholder=""/>
+						</div>
+
+						<div class="break">
+							<p class="input_label">Email:</p>
+							<input class="textbox" id="user_email" type="text" name="input_email" placeholder=""/>
+						</div>
+
+						<div class="break">
+							<p class="input_label">Phone:</p>
+							<input class="textbox" id="user_phoneNumber" type="text" name="input_phoneNum" placeholder=""/>
+						</div>
+<br>
+            <!--sets submit button-->
+						<div class="break buttonWrapper">
+							<input id="input_username_button" class="button" type="button" value="submit" onClick="submitForum();">
+						</div>
+
+					</form>
+				</section>
+			</div>
+        <!--connects us to javascript-->
+    <script src="script.js"></script>
+ </div>
+  </body>
+</html>

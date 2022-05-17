@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <title>Anxiety</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body id="anxiety">
+    <a href="emoticon.html">HOME</a>
+    <embed src="fesliyanstudios.mp3" loop="true" autostart="true" width="0" height="0">
+    <center>
+      <marquee behavior="alternate">
+      <img src="Anxiety_cloud.png" id="cloud">
+      <h6>Credit of <a href="https://commons.wikimedia.org/wiki/File:Anxiety_cloud.png" style="color:cyan"> Wikimedia</h6>
+      </marquee>
+      <table>
+      <th>A short description</th>
+        <tr>
+          <td>
+      <p>Anxiety disorder is a mental condition where someone has persistent and excessive fear about situations that doesn't warrant it. There are many different forms of anxiety disorders that affect many different situations, and some people can have multiple anxiety disorders. Some examples are agoraphobia (fear of being in a place or situation where you would feel panic, helplessness, and embarassment), selective mutism (where someone can't talk in certain social situations), and separation anxiety disorder (a person's fear of being separated from someone they are attached to). Most (if not all) phobias fall under anxiety disorder, and some medical conditions can cause someone to develop an anxiety disorder, as well as trauma. Anxiety disorders can also be passed down genetically, or be obtained through drug use/withdrawal.</p>
+          </td>
+        </tr>
+      </table>
+      <br>
+      <div id="block"></div>
+      <br>
+      <table id="treatment">
+      <th id="treatment">Treatment Options</th>
+      <td id="treatment">
+      <p>Fortunately, there are treatments one can take to help treat anxiety disorder, like psycotherapy (like cognitive behavioral therapy and acceptance and commitment therapy), and/or medications like antidepresents, anti-anxiety medications (like benzodiazepines), and beta-blockers. However, a medical professional should always be consulted before trying these (especially medications).</p>
+        </td>
+      </table>
+    </center>
+      <script>
+        function blockTest(){
+        document.getElementById("block").style.height="30"
+        document.getElementById("block").style.width="30"
+    let position = 0;
+    var x = document.getElementById("block").style.left;
+    var y = document.getElementById("block").style.top;
+    const moveBlock = ({code}) => {
+      if (["KeyA", "ArrowLeft"].includes(code)) {
+        document.getElementById("block").style.left = `${position -= 20}px`;
+      }
+      if (["KeyD", "ArrowRight"].includes(code)) {
+        document.getElementById("block").style.left = `${position += 20}px`;
+      }
+      if (["KeyS", "ArrowDown"].includes(code)) {
+        document.getElementById("block").style.top = `${position += 20}px`;
+      }
+      if (["KeyW", "ArrowUp"].includes(code)) {
+        document.getElementById("block").style.top = `${position -= 20}px`;
+      }
+    }
+        document.addEventListener("keydown", moveBlock);
+      }
+      </script>
+  </body>
+</html>

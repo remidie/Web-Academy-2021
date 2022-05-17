@@ -1,0 +1,107 @@
+<!--Doctype HTML-->
+<html>
+<head>
+<title>Internal CSS</title>
+<link rel="shortcut icon" href="logo3.png" type="image/x-icon">
+<style>
+  /*the * works as a universal selector of CSS*/
+*{
+box-sizing:border-box;
+}
+/*A CSS selector selects the HTML element(s) you want to style. Simple selectors (select elements based on name, id, class)*/
+/*any html element can be a selector. For example*/ 
+body {
+  background-repeat:no-repeat;
+  background-image:linear-gradient(to right, purple, blue, cyan);
+  background-image:url('css.jpg');
+  background-size:100%;
+}
+/*To select elements with a specific class, write period (.) character, followed by the class name*/
+.header{
+  background-image:repeating-radial-gradient(blue 30%, yellow 50%, red 20%);
+  padding:20px;
+  text-align:center;
+  margin:25px;
+}
+/* tag selector*/
+/* ID selector*/
+#lname{
+  color:green;
+}
+/*The id selector uses the id attribute of an html element to select a specific element.
+The id of an element is unique within a page, so the id selector is used to select one unique element!
+To select an element with a specific id, write a hash (#) character, followed by the id of an element.*/
+#demobox{
+  color:purple;
+}
+/*The grouping selector selects all the html elements with the same style definitions.
+It will be better to group the selectors, to minimize the code. 
+To group selectors, seperate each selector with a coma*/
+h1, h2, p{
+  color:blue;
+}
+/*CSS Combinators
+A combinator is something that explains the relationship between the selectors.
+A css selector can contain more than one simple selector. Between the simple selectors, we can include a combinator. There are four different combinators in css:
+descendant selector (space)
+child selector (>)
+adjacent sibling selector (+)
+general sibling selector (~)*/
+.header h1{
+  color:orange;
+}
+.topnav a:hover{
+  background-color:grey;
+  color:black;
+}
+.topnav a{
+  color:blue;
+  display: block;
+  float: left;
+  padding:25px 8px;
+}
+.topnav {
+  background-color:rgba(0, 255, 255, 0.705);
+  overflow:hidden;
+}
+a[target]{
+ background-color:lightblue;
+ color:purple;
+}
+a[target]:hover{
+  background-color:grey;
+}
+</style>
+</head>
+<a href="../lab 7/lab 7.html">HOME PAGE</a>
+<body>
+  <div class="topnav">
+   <a href="../lab 1/lab 1.html">LAB #1 <br></a>
+   <a href="../lab 2/lab 2.html">LAB #2<br></a>
+   <a href="../lab 3/lab 3.html">LAB #3<br></a>
+   <a href="../lab 4/lab 4.html">LAB #4<br></a>
+   <a href="../lab 5/lab 5.html">LAB #5<br></a>
+   <a href="../lab 6/lab 6.html">LAB #6<br></a>
+   <a href="../lab 8/lab 8.html">LAB #8<br></a>
+   <a href="../lab 9/lab 9.html">LAB #9<br></a>
+   <a href="../lb 10/lab 10.html" target="_blank">LAB #10<br></a>
+   <a href="../unused labs/lb 11/lab 11.html">LAB #11<br></a>
+   <a href="../unused labs/lb 12/lab 12.html">LAB #12<br></a>
+   <a href="../unused labs/lb 13/lab 13.html">LAB #13<br></a>
+   <a href="../unused labs/lb 14/lab 14.html">LAB #14<br></a>
+   <a href="../unused labs/lb 15/lab 15.html">LAB #15<br></a>
+   <a href="../unused labs/lb 16/lab 16.html">LAB #16<br></a>
+   <a href="../unused labs/lb 17/lab 17.html">LAB #17<br></a>
+   <a href="../unused labs/lb 18/lab 18.html">LAB #18<br></a>
+   <a href="../unused labs/lb 19/lab 19.html">LAB #19<br></a>
+   <a href="../unused labs/lb 20/lab 20.html">LAB #20<br></a>
+   <a href="../movie/project.html">Movie Project<br></a>
+</div>
+<div class="header">
+<h1>Cristino</h1>
+<h1 id="lname">Rivera</h1>
+<h1 id="demobox">PRACTICING INTERNAL CSS</h1>
+</div>
+<h1>words</h1>
+</body>
+</html>

@@ -1,0 +1,93 @@
+/*changes the font of all text*/
+*{
+font-family:comic sans Ms;  
+}
+/*works on body of the page*/
+body{
+  background-color:gray;
+}
+/*works on form box*/
+.wrapper{
+  border:15px #7618F5 solid;
+  border-style:ridge;
+  width:30%;
+  height:500px;
+  background-color:#19FF70;
+  padding:5px;
+  outline:#7618F5 solid 8px;
+  outline-offset:-15px;
+  overflow:hidden;
+}
+
+p{
+  color:#D40B25;
+  font-size:1em;
+}
+/*works on submit button*/
+input{
+  background-color:cyan;
+  box-sizing:content-box;
+}
+
+.button{
+  background-color:blue;
+  color:yellow;
+  width:90px;
+  height:40px;
+  text-transform:uppercase;
+  border-radius:3px;
+  border-style:solid;
+}
+
+.button:hover{
+  background-color:cyan;
+  color:green;
+  border-color:black;
+  transform:scale(1.05);
+}
+/*hides top*/
+.section_info{
+  visibility:hidden;
+  height:3px;
+}
+
+.section_userform{
+  visibility:hidden;
+  height:3px;
+}
+/*controls where the text is*/
+.input_label{
+  text-align:left;
+  top:40px;
+  position:relative;
+  left: 80px;
+}
+/*pre-failure zone*/
+#after{
+  display:none;
+  opacity:0;
+  z-index:-1;
+}
+
+#before{
+  display:block;
+  opacity:1;
+  z-index:1;
+}
+/*make top text bigger*/
+.section_info2 h1{
+  font-size:2em;
+}
+/*failure zone*/
+#input_username_button.focus #before{
+  display:none;
+  opacity:0;
+  z-index:-1;
+}
+
+#input_username_button.focus #after{
+  display:block;
+  opacity:1;
+  z-index:1;
+} 
+

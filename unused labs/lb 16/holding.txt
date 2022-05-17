@@ -1,0 +1,28 @@
+  var x = document.getElementById("before");
+  if (x.style.display === "none"){
+    x.style.display = "block";
+    x.style.opacity = "1";
+    y.style.display = "none";
+    y.style.opacity = "0";
+  }else{
+    x.style.display = "none";
+    x.style.opacity = "0";
+    y.style.display = "block";
+    y.style.opacity = "1";
+  }
+
+function brainTest(){
+    var number=prompt("Give me a number")
+    var number2=prompt("One number isnt enough")
+    var number3=prompt("third number cus why not")
+    var userAnswer=prompt("What is " +number +" " +"plus" +" " +number2 +" " +"plus" +" " +number3)
+    alert("You answered " +userAnswer)
+    alert("unfortunately, you are stupid. The actual answer is " +number+number2+number3)
+}
+
+copypasta:
+NOTICE TO CHATTER: The Federal Bureau of Investigation has logged a record of this chat along with the IP addresses of the participants due to potential violations of U.S. law. VIOLATION: Solicitation of a minor. IMPORTANT WARNING: If you think this chat session was logged in error, please state your reasons to the F.B.I. agent currently monitoring this chat and quote the reference number #2334531343. Failure to do so within the next 2 minutes will result in your IP and address being entered into our criminal data base and legal action.
+
+If they don't reply, then say:
+
+*Your IP address has been logged by the Child Internet Service Protection Agency. Please wait while memory ref code "502695151" is entered into the database.

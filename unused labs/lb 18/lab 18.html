@@ -1,0 +1,75 @@
+<!--Doctype HTML-->
+<html>
+<head>
+<title>Lab 18</title>
+<link rel="stylesheet" href="../../../lab 7/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<a href="../lab 7/lab 7.html">HOME PAGE</a>
+<body style="background-image:url('smol.jpg');">
+  <div class="topnav">
+   <a href="../../../lab 1/lab 1.html">LAB #1 <br></a>
+   <a href="../../../lab 2/lab 2.html">LAB #2<br></a>
+   <a href="../../../lab 3/lab 3.html">LAB #3<br></a>
+   <a href="../../../lab 4/lab 4.html">LAB #4<br></a>
+   <a href="../../../lab 5/lab 5.html">LAB #5<br></a>
+   <a href="../../../lab 6/lab 6.html">LAB #6<br></a>
+   <a href="../../../lab 8/lab 8.html">LAB #8<br></a>
+   <a href="../../../lab 9/lab 9.html">LAB #9<br></a>
+   <a href="../../../lb 10/lab 10.html">LAB #10<br></a>
+   <a href="../../../unused labs/lb 11/lab 11.html">LAB #11<br></a>
+   <a href="../../../unused labs/lb 12/lab 12.html">LAB #12<br></a>
+   <a href="../../../unused labs/lb 13/lab 13.html">LAB #13<br></a>
+   <a href="../../../unused labs/lb 14/lab 14.html">LAB #14<br></a>
+   <a href="../../../unused labs/lb 15/lab 15.html">LAB #15<br></a>
+   <a href="../../../unused labs/lb 16/lab 16.html">LAB #16<br></a>
+   <a href="../../../unused labs/lb 17/lab 17.html">LAB #17<br></a>
+   <a href="../../unused labs/lb 18/lab 18.html">LAB #18<br></a>
+   <a href="../../unused labs/lb 19/lab 19.html">LAB #19<br></a>
+   <a href="../../unused labs/lb 20/lab 20.html">LAB #20<br></a>
+   <a href="../../movie/project.html">Movie Project<br></a>
+</div>
+  <center>
+<div>Header Box</div>
+<div>Navigation Bar</div>
+<div id="ban">
+</div>
+<button type="button" onClick="size()">Size</button>
+<button type="button" onClick="position()">Position</button>
+<button type="button" onClick="shape()">Shape</button>
+<button type="button" onClick="color()">Color</button>
+<button type="button" onClick="border()">Border</button>
+<button type="button" onClick="reset()">Reset</button>
+<script>
+  function size(){
+  document.getElementById("ban").style.height="100";
+  document.getElementById("ban").style.width="100";
+}
+
+function position(){
+  document.getElementById("ban").style.left="500px"
+}
+
+function shape(){
+  document.getElementById("ban").style.borderRadius="300px"
+}
+
+function color(){
+  document.getElementById("ban").style.backgroundColor="blue"
+}
+
+function border(){
+  document.getElementById("ban").style.borderStyle="ridge"
+}
+  
+function reset(){
+  document.getElementById("ban").style.height="500";
+  document.getElementById("ban").style.width="500";
+  document.getElementById("ban").style.left="0px"
+  document.getElementById("ban").style.borderRadius="0px"
+  document.getElementById("ban").style.backgroundColor="yellowgreen"
+  document.getElementById("ban").style.borderStyle="none"
+}
+</script>
+</body>
+</html>

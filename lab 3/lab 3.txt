@@ -1,0 +1,26 @@
+<!--Doctype HTML-->
+<html>
+<head>
+<title> base html document> </title>
+</head>
+<body>
+<h1> TAEHS </h1>
+<h2> Web dev. </h2>
+<h3> 10^th Grade </h3>
+<h4> Lab # </h4>
+<h5> learning material </h5>
+<h6> Student's name </h6>
+<p> explain </p>
+<a href="http://www.taehs.org"> Click here to Visit my HS</a>
+<br>
+<a href="http://www.taehs.org"> <img src="taehs.jpg" width="500px"> </a>
+<br>
+<a href="https://www.linkedin.com/in/cristino-rivera-769171221/"> This is the linkedin thing...I think</a>
+<br>
+<a href="https://www.linkedin.com/in/cristino-rivera-769171221/"> <img src="linkedin.jpg" width="500px"> </a>
+<br>
+<a href="https://www.w3schools.com/">Click Here to Learn Code Things</a>
+<br>
+<a href="https://www.w3schools.com/"> <img src="schools.jpg" width="500"></a>
+</body>
+</html>

@@ -1,0 +1,31 @@
+/*Line 2 is giving the index a border that we can't see yet*/
+*{
+  box-sizing: border-box;
+}
+
+.header {
+  background-color:transparent;
+  padding: 20px;
+  color:yellow;
+}
+/*Line 6 is giving the index a background color...unfortunately my background is a rickroll*/
+body {
+background-color:gray;
+color: yellow;
+background-repeat:no repeat;
+background-size:100%;
+}
+/*style of the header*/
+.topnav {
+  background-color:transparent;
+  overflow:hidden;
+}
+.topnav a{
+  color:chartreuse;
+  display: block;
+  padding: 10px;
+}
+.topnav a:hover{
+  background-color:grey;
+  color:black;
+}

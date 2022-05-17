@@ -1,0 +1,42 @@
+<html>
+
+<head>
+  <title>My First Webpage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="thicc"></div>
+  <script>
+    const t = document.getElementById('thicc');
+    const component = t;
+    let position = 0;
+    var x = t.style.left;
+    var y = t.style.top;
+    const moveThicc = ({code}) => {
+      console.log(`${code}`, t.style.left, t.style.top);
+      if (["KeyA", "ArrowLeft"].includes(code)) {
+        t.style.left = `${position -= 20}px`;
+      }
+      if (["KeyD", "ArrowRight"].includes(code)) {
+        t.style.left = `${position += 20}px`;
+      }
+      if (["KeyS", "ArrowDown"].includes(code)) {
+        t.style.top = `${position += 20}px`;
+      }
+      if (["KeyW", "ArrowUp"].includes(code)) {
+        t.style.top = `${position -= 20}px`;
+      }
+      this.gravity = 0.05;
+      this.gravitySpeed = 0;
+      this.newPos = function() {
+      this.gravitySpeed += this.gravity;
+      t.style.top = this.gravitySpeed;
+      }
+    }
+    document.addEventListener("keydown", moveThicc);
+      
+  </script>
+</body>
+
+</html>

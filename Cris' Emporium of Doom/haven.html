@@ -1,0 +1,83 @@
+<!--Doctype HTML-->
+<html>
+<head>
+<title> Collected stuff >:) </title>
+    <style>
+        form {
+        background-color:white;
+        width: 300px;
+        height: 44px;
+        border-radius: 5px;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+      }
+    </style>
+  <link href="haven.css" rel="stylesheet" type="text/css" /> 
+  </head>
+  <body>
+    <form role="search" id="form">
+      <input type="search" id="query" name="q" placeholder="type mofo" aria-label="Search through site content">
+    </form>
+ 
+<div class="dropdown">
+<h1>Thomas A. Edison CTE HS for $100</h1>
+<div class="dropdowncontent">
+  <embed src="Important Video.avi" loop="true" autostart="true" width="50px" height="50px">
+</div>
+</div>
+    <br>
+<div class="roll">
+<h2>500000 ft^2 condo for $300</h2>
+<div class="rick">
+  <video width="150" height="250" autoplay>
+    <source src="RickRoll.mp4" type="video/mp4">
+    <source src="RickRoll.mp4" type="video/mp4">
+  </video>
+</div>
+</div>
+<h3>30 10th graders for $20</h3>
+<h4><a href="webpage.html">webpage for $50</a></h4>
+<h5>huge stack of books for $500</h5>
+<h6>happy buying</h6>
+<p> yes </p>
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Epic Discounts Here</a> 
+<br>
+    <br>
+    <a href="keys.html">Test 2</a>
+    <br>
+    <br>
+    <a href="game.html">Game</a>
+    <br>
+    <br>
+    <button type="button" onClick="randomizer()">Click Here</button>
+    <p id="here"></p>
+       <script>
+      const f = document.getElementById('form');
+      const q = document.getElementById('query');
+      const google = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+      const site = 'google.com';
+
+      function submitted(event) {
+        event.preventDefault();
+        const url = google + site + '+' + q.value;
+        const win = window.open(url, '_blank');
+        win.focus();
+      }
+
+      f.addEventListener('submit', submitted);
+      
+      
+function randomizer(){
+      var math = Math.round(Math.random() * 10);
+     
+            document.getElementById("here").innerHTML = math;
+if (math == 7) {
+   
+} else {
+   document.getElementById("here").innerHTML = math;
+}
+      }
+    </script>
+</body>
+</html>

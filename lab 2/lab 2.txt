@@ -1,0 +1,19 @@
+<!--Doctype HTML-->
+<html>
+<head>
+<title>My First Webpage</title>
+</head>
+<body>
+<h1>Thomas A. Edison CTE HS</h1>
+<h2>Web Developer Academy</h2>
+<h3>10th Grade</h3>
+<h4>Lab 2</h4>
+<h5> Image tag and list</h5>
+<h6> By Cristino Rivera</h6>
+<img src="Ugly People.jpg" width="1000px">
+<ul>MY SMART GOALS:
+<li> Goal 1</li>
+<li>Goal 2</li>
+<li>Goal 3</li>
+</ul>
+</body>

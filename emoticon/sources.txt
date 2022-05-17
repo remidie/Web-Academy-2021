@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title>Source Page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    Eating Disorders:
+    https://www.nimh.nih.gov/health/topics/eating-disorders
+    
+    https://www.eatingdisorders.org.au/eating-disorders/what-is-an-eating-disorder/classifying-eating-disorders/
+
+    https://kidshealth.org/en/parents/arfid.html#:~:text=Avoidant%2Frestrictive%20food%20intake%20disorder%20(ARFID)%20is%20an%20eating,poor%20growth%20and%20poor%20nutrition.
+
+    https://www.healthline.com/nutrition/common-eating-disorders
+
+    Anxiety:
+    https://www.mayoclinic.org/diseases-conditions/anxiety/symptoms-causes/syc-20350961#:~:text=Anxiety%20disorder%20due%20to%20a,%E2%80%94%20even%20ordinary%2C%20routine%20issues.
+
+    https://www.nimh.nih.gov/health/topics/anxiety-disorders
+
+    https://psychiatry.org/patients-families/anxiety-disorders/what-are-anxiety-disorders
+
+    https://www.nami.org/About-Mental-Illness/Mental-Health-Conditions/Anxiety-Disorders
+
+    Depression:
+    https://www.nimh.nih.gov/health/topics/depression
+
+    https://www.webmd.com/depression/guide/depression-types
+https://www.webmd.com/depression/ss/slideshow-depression-types#:~:text=Subsyndromal%20depression%20means%20you%20have%20at%20least%20two,quality%20of%20life%20for%20at%20least%202%20weeks.
+
+    https://www.healthline.com/health/depression
+
+    https://www.who.int/news-room/fact-sheets/detail/depression
+
+    PTSD:
+    https://www.mayoclinic.org/diseases-conditions/post-traumatic-stress-disorder/symptoms-causes/syc-20355967
+
+    https://www.ptsd.va.gov/
+
+    https://www.nimh.nih.gov/health/topics/post-traumatic-stress-disorder-ptsd
+
+    https://psychiatry.org/patients-families/ptsd/what-is-ptsd
+
+    schizophrenia:
+    https://www.nimh.nih.gov/health/topics/schizophrenia
+
+    https://www.mayoclinic.org/diseases-conditions/schizophrenia/symptoms-causes/syc-20354443#:~:text=Schizophrenia%20is%20a%20serious%20mental,with%20schizophrenia%20require%20lifelong%20treatment.
+
+    https://psychiatry.org/patients-families/schizophrenia/what-is-schizophrenia
+
+    https://www.webmd.com/schizophrenia/mental-health-schizophrenia
+
+    https://www.youtube.com/watch?v=dQw4w9WgXcQ
+  </body>
+</html>

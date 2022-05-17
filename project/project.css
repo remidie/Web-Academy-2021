@@ -1,0 +1,72 @@
+.value{
+  border:3px solid black;
+  border-style:ridge;
+  width:50%;
+  color:yellow;
+  background-color:rgba(35, 203, 167,0.5); 
+}
+
+body{
+  background-color:rgb(33, 174, 181);
+  color:yellow;
+  background-image:url('innovation.jpg');
+  background-size:100%;
+  font-family:comic sans Ms;
+}
+
+#query{
+  width:50%;
+  height:50px;
+  background-color:cyan;
+  border:2px solid green;
+  border-radius:50px;
+}
+
+#dropdown{
+  position:relative;
+  display:inline-block;
+}
+
+.dropdowncontent{
+  display:none;
+  position:absolute;
+  background-color:lightblue;
+  min-width:150px;
+  padding:12px 16px;
+  z-index:1;
+  color:blue;
+}
+
+#dropdown:hover .dropdowncontent{
+  display:block;
+}
+
+a{
+  color:lightyellow;
+}
+
+mark{
+  background-color:rgba(239, 255, 8, 0.6);
+}
+
+table{
+  border:5px solid red;
+  background-color:green;
+  color:cyan;
+}
+
+th{
+  border:2px solid red;
+  padding:10px;
+  width:400px;
+}
+
+td{
+  border:2px solid red;
+  width:400px;
+}
+
+input{
+  background-color:cyan;
+  color:blue;
+}

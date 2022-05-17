@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>Eating Disorders</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body id="disorder">
+    <a href="emoticon.html">HOME</a>
+    <center>
+    <marquee behavior="alternate">
+    <img src="eating.png" id="eat">
+      <h6>credit of <a href="https://pixabay.com/illustrations/bulimia-anorexia-nervosa-4049661/">Pixabay</a></h6>
+    </marquee>
+    <table>
+      <th>Brief Description</th>
+      <tr>
+      <td>
+        <p>Eating disorders are a broad term regarding how much they eat, whether that be so little that they starve or so much that they become obese. Some types of eating disorders are Avoidant Restrictive Food Intake Disorder (where someone eats a limited amount of preferred food, which leads to them having malnutrition), Bulimia nervosa (where someone eats a lot and then overcompensates to purge their bodies), Anorexia nervosa (where someone avoids food/eats only small amounts of certain foods and may see themselves as overweight even when they are severely underweight), and binge-eating disorder (where someone loses control of how much they can eat and eat an unusually large amount of food. Researchers found that eating disorders are caused by complex interactions of genetic, biological, behavioral, psychological, and social factors. It has also been found that women with eating disorders have different brain patterns than healthy women.</p>
+      </td>
+      </tr>
+    </table>
+      <div id="block"></div>
+      <table id="treatment">
+        <th>Treatment</th>
+        <tr>
+          <td>
+            <p>Many of the people that have eating disorders often have other mental illnesses (like depression or anxiety), so many of the treatment options would also work for those. Some ways to treat eating disorders are cognitive behavioral therapy/psychotherapy, and medications like anti-depressants, antipsychotics, or mood stabilizers. A medical professional should be consulted before chosing an option.</p>
+          </td>
+        </tr>
+      </table>
+    </center>
+    <script>
+        function blockTest(){
+        document.getElementById("block").style.height="30"
+        document.getElementById("block").style.width="30"
+    let position = 0;
+    var x = document.getElementById("block").style.left;
+    var y = document.getElementById("block").style.top;
+    const moveBlock = ({code}) => {
+      if (["KeyA", "ArrowLeft"].includes(code)) {
+        document.getElementById("block").style.left = `${position -= 20}px`;
+      }
+      if (["KeyD", "ArrowRight"].includes(code)) {
+        document.getElementById("block").style.left = `${position += 20}px`;
+      }
+      if (["KeyS", "ArrowDown"].includes(code)) {
+        document.getElementById("block").style.top = `${position += 20}px`;
+      }
+      if (["KeyW", "ArrowUp"].includes(code)) {
+        document.getElementById("block").style.top = `${position -= 20}px`;
+      }
+    }
+        document.addEventListener("keydown", moveBlock);
+      }
+      </script>
+  </body>
+</html>

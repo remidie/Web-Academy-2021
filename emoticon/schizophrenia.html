@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title>Schizophrenia</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body id="schizophrenia">
+    <a href="emoticon.html">HOME</a>
+    <marquee behavior="alternate">
+      <img src="schizophrenia.jpg">
+      <p>credit of <a href="https://pixabay.com/photos/depression-schizophrenia-388872/">Pixabay</a></p>
+    </marquee>
+    <table>
+      <th>Brief Description</th>
+      <tr>
+        <td>
+          <p>Schizophrenia is a mental disorder where someone abnormally interprets reality and seems to have lost touch with reality. The symptoms of schizophrenia can be broken into three main categories, psychotic, negative, and cognitive. Some psychotic symptoms are hallucinations(seeing, hearing, smelling, tasting, and feeling things that arent there), delusions (strong beliefs in things that arent true and are irrational), thought disorder (when someone has an unusual and/or illogical, and movement disorder (when someone has abnormal body movements). Some negative symptoms are having trouble planning and sticking to activites, having trouble anticipating and feeling pleasure for everyday life, showing limited facial expressions with a dull voice, and having low energy (some people have had this lead to the to stop moving or talking, which is called catatonia). Some cognitive symptoms are having trouble processing information needed to make decisions, trouble using information after having just learned it, and/or difficulties focusing. Some causes to why someone would get it are their genetics, environment, and brain structure/function.</p>
+        </td>
+      </tr>
+    </table>
+    <div id="block">
+      <table>
+        <th>Treatment</th>
+        <tr>
+          <td>
+            <p>Some treatments for schizophrenia that can help make its symptoms more managable are antipsychotic medications (and sometimes clozapine if the medication isn't effective), educating others on how to help people with schizophrenia, and psychosocial treatments. A medical professional should always be consulted before taking an option.</p>
+          </td>
+        </tr>
+      </table>
+      <script>
+        function blockTest(){
+        document.getElementById("block").style.height="30"
+        document.getElementById("block").style.width="30"
+    let position = 0;
+    var x = document.getElementById("block").style.left;
+    var y = document.getElementById("block").style.top;
+    const moveBlock = ({code}) => {
+      if (["KeyA", "ArrowLeft"].includes(code)) {
+        document.getElementById("block").style.left = `${position -= 20}px`;
+      }
+      if (["KeyD", "ArrowRight"].includes(code)) {
+        document.getElementById("block").style.left = `${position += 20}px`;
+      }
+      if (["KeyS", "ArrowDown"].includes(code)) {
+        document.getElementById("block").style.top = `${position += 20}px`;
+      }
+      if (["KeyW", "ArrowUp"].includes(code)) {
+        document.getElementById("block").style.top = `${position -= 20}px`;
+      }
+    }
+        document.addEventListener("keydown", moveBlock);
+      }
+      </script>
+  </body>
+</html>

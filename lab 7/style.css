@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+}
+.topnav a:hover{
+  background-color:grey;
+  color:black;
+}
+.topnav a{
+  color:blue;
+  display: block;
+  float: left;
+  padding:25px 8px;
+}
+.topnav {
+  background-color:rgba(0, 255, 255, 0.705);
+  overflow:hidden;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+.column a:hover{
+  background-color:grey;
+  color:black;
+}
+.column a{
+  color:yellow;
+}
+a[target]{
+ background-color:lightblue;
+ color:purple;
+}
+a[target]:hover{
+  background-color:grey;
+}
+strong {
+  color:green
+}
+.header{
+  background-image:linear-gradient(to right, purple, blue, cyan);
+  padding:20px;
+  text-align:center;
+  margin:25px;
+}

@@ -1,0 +1,59 @@
+<html lang="en-US">
+<head>
+  <title>CREATIVITY</title>
+  <link href="project.css" rel="stylesheet">
+</head>
+<body>
+  <center>
+ <div class="value">
+   <h1>CREATIVITY IS KEY</h1>
+ </div>
+    <br>
+    <br>
+    <form role="search" id="form">
+    <input type="searchbox" name="q" placeholder="search creatively" id="query">
+    </form>
+    <script>
+const f = document.getElementById('form');
+const q = document.getElementById('query');
+const google = 'https://d2ba6929-d8d6-453e-aa5e-cdc4899c61bf.id.repl.co/project/project%202.html';
+const site = 'google.com';
+
+function submitted(event) {
+event.preventDefault();
+const url = google;
+const win = window.open(url);
+win.focus();
+}
+f.addEventListener('submit', submitted);
+    </script>
+    <h2><mark>What is creativity? Now that's a question to ponder.</mark></h2>
+    <input type="button" value="ponder here" onclick="button()">
+    <script>
+      function button(){
+      var ponder=prompt("How would you define creativity?")
+      console.log(ponder)
+      document.getElementById("dropdown").innerHTML=ponder;
+      }
+    </script>
+    <br>  
+    <div id="dropdown">
+        <p><s>or you can hover here</s></p>
+      <div class="dropdowncontent">
+    <p>Creativity is the ability for someone to use their imagination and intuition to morph and change things to be used to the best of its ability or to make something new and original, whether it be a concept or an idea.</p>
+      </div>
+      </div>
+    <br>
+    <br>
+    <div id="dropdown">
+      <p>Here's an image page cus I feel like using the images I have here</p>
+      <div class="dropdowncontent">
+        <a href="image.html">Page</a>
+      </div>
+    </div>
+    <br>
+    <br>
+    <a href="project 3.html">A great example of people using their creativity are innovators/pioneers like Steve Jobs and the Wright Brothers. In this website we will go over the life and inventions of 10 of the greatest innovators/pioneers of the last 160 years.</a>
+      </center>
+ </body>
+</html>

@@ -1,0 +1,20 @@
+#ban{
+  color:green;
+  border:5px solid blue;
+  position:relative;
+  background-color:yellowgreen;
+  padding:15px;
+  height:500px;
+  width:500px;
+}
+
+button{
+  color:blue;
+  background-color:lightyellow;
+}
+
+button:hover{
+  color:red;
+  background-color:green;
+}
+
