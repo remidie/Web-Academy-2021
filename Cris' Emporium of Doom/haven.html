@@ -12,14 +12,19 @@
         flex-direction:row;
         align-items:center;
       }
+      #hidden{
+        visibility: 0%;
+      }
     </style>
   <link href="haven.css" rel="stylesheet" type="text/css" /> 
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.hmenshgugaw.com/">
   </head>
   <body>
     <form role="search" id="form">
       <input type="search" id="query" name="q" placeholder="type mofo" aria-label="Search through site content">
     </form>
- 
+ <p>Search bar for $10</p>
 <div class="dropdown">
 <h1>Thomas A. Edison CTE HS for $100</h1>
 <div class="dropdowncontent">
@@ -37,19 +42,20 @@
 </div>
 </div>
 <h3>30 10th graders for $20</h3>
-<h4><a href="webpage.html">webpage for $50</a></h4>
+<h4><a href="webpage.html">webpage for $5</a></h4>
 <h5>huge stack of books for $500</h5>
 <h6>happy buying</h6>
 <p> yes </p>
+    <a href="keys.html">$2 Epic tool</a>
+    <br>
+    <br>
+    <a href="game.html">$5 Game Tool Creator (make your own game)</a>
+    <br>
+    <br>
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Epic Discounts Here</a> 
 <br>
     <br>
-    <a href="keys.html">Test 2</a>
-    <br>
-    <br>
-    <a href="game.html">Game</a>
-    <br>
-    <br>
+    <h4>Button for $50</h4>
     <button type="button" onClick="randomizer()">Click Here</button>
     <p id="here"></p>
        <script>
@@ -69,15 +75,16 @@
       
       
 function randomizer(){
-      var math = Math.round(Math.random() * 10);
+      var math = Math.round(Math.random() * 5);
      
             document.getElementById("here").innerHTML = math;
-if (math == 7) {
-   
+if (math == 5) {
+   window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
 } else {
    document.getElementById("here").innerHTML = math;
 }
       }
     </script>
+    <p id="hidden">Hello World!</p>
 </body>
 </html>

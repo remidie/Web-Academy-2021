@@ -16,26 +16,32 @@
     const moveThicc = ({code}) => {
       console.log(`${code}`, t.style.left, t.style.top);
       if (["KeyA", "ArrowLeft"].includes(code)) {
-        t.style.left = `${position -= 20}px`;
+        t.style.left = `${position -= 1}px`;
       }
       if (["KeyD", "ArrowRight"].includes(code)) {
-        t.style.left = `${position += 20}px`;
+        t.style.left = `${position += 1}px`;
       }
       if (["KeyS", "ArrowDown"].includes(code)) {
-        t.style.top = `${position += 20}px`;
+        t.style.top = `${position += 1}px`;
       }
       if (["KeyW", "ArrowUp"].includes(code)) {
-        t.style.top = `${position -= 20}px`;
+        t.style.top = `${position -= 1}px`;
       }
       this.gravity = 0.05;
-      this.gravitySpeed = 0;
+      this.gravitySpeed = 1;
       this.newPos = function() {
       this.gravitySpeed += this.gravity;
       t.style.top = this.gravitySpeed;
       }
     }
     document.addEventListener("keydown", moveThicc);
-      
+      function rickRoll(){
+        var pos = document.elementFromPoint(100, 100)
+        if (this.x, this.y == pos){
+          const win = window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", '_blank')
+          win.focus()
+        }
+      }
   </script>
 </body>
 
